@@ -1,12 +1,12 @@
 {
-  "name": "nebrew-template",
-  "version": "0.1.0",
-  "description": "NodeJS + Express + Babel + React + ESlint + Webpack template",
+  "name": "nerbew-template",
+  "version": "1.0.0",
+  "description": "NodeJS + Express + React + Babel + ESlint + Webpack template",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint --ignore-path .gitignore .",
     "start": "nodemon --exec babel-node src/server/index.js",
-    "webpack": "./node_modules/.bin/webpack -w --mode=development"
+    "webpack": "webpack -w --mode=development"
   },
   "author": "LL3006",
   "license": "CC-BY-4.0",
